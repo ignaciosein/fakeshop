@@ -1,43 +1,76 @@
- 
- 
-section{
+ body{
 
+
+    background-color: red;
+ }
+section{
     display: flex;
     flex-direction: column;
- 
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .miniatura{ 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  
 flex-direction: row;
- 
+background-color: white; 
  box-shadow: black 2px;
-width: 30%;
-height: 250px;
-border: solid 2px black ;
-margin-left: 10%;
-margin-right: 10%;
+width: 75%;
+height: 20%;
+border: solid 5px black ;
+ 
+ 
 font-size: 0.8rem;
-margin: 20px;
+margin-top: 20px;
 color: black;
 
-padding: 40px;
+padding: 10%;
 
 
 }
+p{
+    font-size: 0.6rem;
+}
 img {
+    
     align-items: center;
-    width: 20%;
-    border: black 2px solid;
+    width: 60%;
+    margin-left: 10%;
+   
     padding: 20px;
+    
     
 }
 select{
     display: flex;
-    flex-direction: row;
+   
     justify-content: center;
-    margin-left: 5%;
+   
     border: solid black 8px;
-    width: 60%;
+    width: 90%;
+    margin-left: 5%;
+    
     height: 50px;
+}
+
+.precio{
+
+
+    color: red;
+    font-size: 2rem;
+    font-style: italic;
+    text-shadow: black 5px;
+ 
+}
+#price{
+
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.descripcion{
+
+ font-weight: normal;
+
+
 }
