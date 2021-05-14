@@ -263,6 +263,17 @@ liElement.appendChild(textnode);
 
 ////////////////////////CATEGORIAS////////////////////
 
+//let orden= true;
+
+document.getElementById("botonprecio").addEventListener("click", () =>{
+  let botonACambiar = document.getElementById("botonprecio").innerText = "Precio descendente";
+  if (botonACambiar !== "Precio descendente"){
+    botonACambiar == "precio ascendente"
+  }
+})
+
+
+
    function listarCat(){
     fetch(`https://fakestoreapi.com/products/categories`)
     .then(res=>res.json())
@@ -301,20 +312,13 @@ liElement.appendChild(textnode);
  //let filtrar = textNode.map(elemento1 => textNode.length)  
    
 
-  optionElement.appendChild(textNode);   
-
-
- 
- 
+  optionElement.appendChild(textNode);
 
   }
 
   document.getElementById("selector").addEventListener("change", function(){
 
     const valueDelSelector = document.getElementById("selector").value 
-
-    
-
 
    console.log(valueDelSelector)
 
@@ -326,8 +330,7 @@ liElement.appendChild(textnode);
       }
 
    obtenerProd(valueDelSelector)
-      
-
+    
   })
 
   }  
@@ -350,10 +353,7 @@ liElement.appendChild(textnode);
   
   
     function pintarProd (arrayProd){
-  
-     
-  
-     
+
    
   for (let index = 0; index < arrayProd.length; index++) {
    
