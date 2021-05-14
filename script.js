@@ -400,7 +400,10 @@ for (let index = 0; index < productos.length; index++) {
   <div id="tarjeta" class="miniatura">
     <p><b>${productos[index].title}</p>
     <div><img src="${productos[index].image}"></div>
-    ${productos[index].description}
+    <p id="price" >Precio : <div class="precio"> ${productos[index].price}€</div></p>
+   
+    <p>Descripción :</p>
+    <p class="descripcion">${productos[index].description}</p>
   </div>
   `
   
