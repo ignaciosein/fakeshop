@@ -43,8 +43,11 @@ img {
 }
 select{
     display: flex;
-   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 20px;
    
     border: solid black 8px;
     width: 90%;
@@ -73,4 +76,16 @@ select{
  font-weight: normal;
 
 
+}
+
+button{
+margin-top: 20px;
+width: 60%;
+font-style: italic;
+height: 40px;
+background-color: yellow;
+margin-left: 20%;
+color: black;
+font-weight: bolder;
+border: solid 8px black;
 }
